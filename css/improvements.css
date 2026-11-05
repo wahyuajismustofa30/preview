@@ -1,0 +1,46 @@
+/* Penyempurnaan profil berbasis data */
+.photo-label > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: .61rem;
+  letter-spacing: 1px;
+}
+
+.photo-label svg { width: 13px; color: var(--gold); }
+
+.profile-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 19px;
+}
+
+.profile-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border: 1px solid #d5e2c6;
+  border-radius: 5px;
+  background: #fffdf5;
+  color: var(--muted);
+  font-size: .68rem;
+}
+
+.profile-meta svg { width: 15px; color: var(--green); }
+.profile-meta b { color: var(--ink); font-weight: 700; }
+.profile-facts { margin-top: 20px; }
+
+.profile-fact-icon {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: var(--cream);
+}
+
+.profile-facts svg { width: 16px; color: var(--green); }
+.mission-detail:focus { outline: 3px solid #ffd50080; outline-offset: 4px; }
